@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My First Express App</title>
+  </head>
+  <body>
+    <div class="icon">
+
+    </div>
+    <p>
+      Hey there, my name is Kieran Pyne, I'm 24, and I'm trying to become a web developer. I like long walks on the beach, short jogs on the shore, and brisk runs off of piers.
+    </p>
+
+    <h5>My skills are</h5>
+    <% skills.forEach(function(skill) { %>
+      <ul>
+        <li> <%= skill %></li>
+      </ul>
+    <% }) %>
+
+    <h5>My hobbies are</h5>
+    <% hobbies.forEach(function(hobby) { %>
+      <ul>
+        <li> <%= hobby %></li>
+      </ul>
+    <% }) %>
+  </body>
+</html>
